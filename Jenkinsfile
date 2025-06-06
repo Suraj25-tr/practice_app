@@ -5,12 +5,12 @@ pipeline{
           stages {
               stage ("one") {
                  steps{
-                     echo "This is the pipelien script"
+                     echo "2025-q1"
   }                     
 }
                  stage ("two") {
                  steps {
-                     echo "This is the pipelien script secodnstep"
+                     echo "2025-d1-PR"
 
 }
               }
