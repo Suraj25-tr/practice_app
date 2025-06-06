@@ -1,7 +1,8 @@
 pipeline{
 
-      Agent any
-          Stages{
+      agent any
+      
+          stages{
               stage("one"){
                  Steps{
                      echo "This is the pipelien script"
