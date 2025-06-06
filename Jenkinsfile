@@ -4,7 +4,7 @@ pipeline{
       
           stages{
               stage("one"){
-                 Steps{
+                 steps{
                      echo "This is the pipelien script"
 }
                  
