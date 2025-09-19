@@ -3,12 +3,12 @@ pipeline{
       agent any
       
           stages {
-              stage ("one") {
+              stage ("one-1") {
                  steps{
                      echo "This is the pipelien script"
   }                     
 }
-                 stage ("two") {
+                 stage ("two-2") {
                  steps {
                      echo "This is the pipelien script secodnstep"
 
